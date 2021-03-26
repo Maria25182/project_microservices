@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-container{
+    display: flex;
+    height:100vh ; 
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+
+.form-box {
+    display: flex;
+    width: 350px;
+    height: 500px;
+    background: brown;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-product>form>label  {
+    border-top: 50px;
+    border-bottom: 50px;
+    
+}
+
+.form-product > form > input {
+    height: 30px;
+    border-radius: 5px;
+    border-top: 50px;
+    border-bottom: 50px;
+}
+
+.form-product-btn {
+    text-align: center;
+    justify-content: center;
+}
+
+.btn_enviar {
+    padding: 10px 20px;
+    margin-top: 18px;
+}
