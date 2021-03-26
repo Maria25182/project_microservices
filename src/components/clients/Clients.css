@@ -1,14 +1,18 @@
 html, body {
 	height: 100%;
 	margin: 0;
-	background:linear-gradient(#46747c, #163031);
-}
-.Principal {
+
 	background:linear-gradient(#46747c, #163031);
 }
 
 
+
+
+.Principal{ 
+
+}
 #h1{
 
 	text-align: center;
+   
 }
