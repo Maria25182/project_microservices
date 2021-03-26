@@ -8,7 +8,7 @@ const Home = () => {
         <div class="container">
 
             <div class="header-bar">
-                <h1 class="logo">C</h1>
+              
                 <ul class="slider-menu">
                     <Link class="li" to= '/Clients'>Clients</Link>
                     <Link class="li" to= '/Products'>Products</Link>
