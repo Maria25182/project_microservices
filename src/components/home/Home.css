@@ -2,7 +2,7 @@
 html, body {
 	height: 100%;
 	margin: 0;
-	background: linear-gradient(to bottom, #f34, #725);
+	background: linear-gradient(to bottom, rgb(111, 167, 189), rgb(15, 60, 119));
 }
 .container {
 	height: 100%;
