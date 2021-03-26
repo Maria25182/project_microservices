@@ -1,17 +1,19 @@
 import React from 'react'
 import './Home.css'
+import {Link} from 'react-router-dom';
 
 const Home = () => {
     return (
 
         <div class="container">
-            <p class="lead">Just my entry in yet another Codepen challenge.</p>
+
             <div class="header-bar">
                 <h1 class="logo">C</h1>
                 <ul class="slider-menu">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
+                    <Link class="li" to= '/Clients'>Clients</Link>
+                    <Link class="li" to= '/Products'>Products</Link>
+                    <Link class="li" to= '/Invoice'>Invoice</Link>
+                    <Link class="li" to= '/Sales'>Sales</Link>
                 </ul>
             </div>
 

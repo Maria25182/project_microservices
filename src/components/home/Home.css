@@ -55,7 +55,7 @@ html, body {
 	padding: 0;
 	z-index: 1;
 }
-.slider-menu > li {
+.li{
 	display: inline-flex;
 	padding: 14px;
 	margin-left: 2px;
@@ -64,8 +64,9 @@ html, body {
 	cursor: pointer;
 	transition: 0.3s linear all;
 	user-select: none;
+	text-decoration: none;
 }
-.slider-menu > li:hover {
+.li:hover {
 	color: #faa;
 	box-shadow: 0 50px 5px rgba(0, 0, 0, 0.15) inset;
 }
