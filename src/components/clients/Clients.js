@@ -5,7 +5,7 @@ import './Clients.css';
 const Clients = () => {
     return (
         <div class="Principal">
-            <form>
+            <form class= "Form">
                 <label>
                     Name:
     <input type="text" name="name" />
